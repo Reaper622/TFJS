@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A repo about using Tensorflow.js.",
   "main": "index.js",
-  "browsersslist": ["last 1 Chrome version"],
+  "browsersslist": [
+    "last 1 Chrome version"
+  ],
   "dependencies": {
+    "@tensorflow/tfjs": "^3.2.0",
     "@tensorflow/tfjs-node": "^2.7.0",
     "@tensorflow/tfjs-vis": "^1.4.3",
     "_ansi-regex@5.0.0@ansi-regex": "^5.0.0",
@@ -70,7 +73,9 @@
     "yargs": "^16.1.1",
     "yargs-parser": "^20.2.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
