@@ -2,8 +2,4 @@
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
 
 <script src="/script.75da7f30.js"></script>
-
-<canvas width="300" height="300" style="border: 2px solid #888;"></canvas>
-<br>
-<button onclick="window.clear();" style="margin: 4px;">清除</button>
-<button onclick="window.predict();" style="margin: 4px;">预测</button>
+<input type="file" onchange="predict(this.files[0])">
