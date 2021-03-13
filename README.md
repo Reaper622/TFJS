@@ -78,7 +78,7 @@ A repo about using Tensorflow.js.
 
 - Final step
 ```
-parcel iris/index.html
+parcel ***(which part u want to use, for example: iris)/index.html
 ```
 
 Then you can see the page at [localhost:1234](http://localhost:1234)
