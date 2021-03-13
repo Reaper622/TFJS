@@ -56,6 +56,11 @@ A repo about using Tensorflow.js.
 
 通过迁移学习模型识别三种商标。
 
+### Speech
+> Use pre-training model to recognize speech.
+
+使用`tfjs-models`的`speech-commands`包加载模型，训练语音识别。
+
 
 
 ## How to use ?
